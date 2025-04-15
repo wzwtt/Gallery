@@ -1,0 +1,35 @@
+$brand-color: #fff;
+$container-width: 1100px;
+
+.footer {
+  background: #0e0e10;
+  color: $brand-color;
+  text-align: center;
+  min-height: 56px;
+  line-height: 45px;
+  width: $container-width;
+}
+
+.footer a {
+  color: $brand-color;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+@media (max-width: $container-width) {
+  .footer {
+    background: #0e0e10;
+    color: $brand-color;
+    text-align: center;
+    min-height: 56px;
+    line-height: 45px;
+    width: 95vw;
+  }
+}
+
+.footer-description {
+  display: block;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-size:0.8rem;
+}

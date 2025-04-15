@@ -1,0 +1,46 @@
+markdown: kramdown
+highlighter: rouge
+permalink: '/:title/'
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-mentions
+  # - jekyll-cache  <-- REMOVED jekyll-cache from the plugins list
+
+# Removed the entire jekyll-cache configuration section:
+# jekyll-cache:
+#   enabled: true
+
+include:
+  - node_modules  # You probably need this for your Parcel/Webpack setup
+title: Your Site Title
+author:
+  name: Your Name
+  email: Your Email
+  url: 'https://YourDomain'
+description: "Some description here"
+repository: Your Git Repository
+github: 'Your GitHub URL'
+feed:
+  path: rss-feed.xml
+sitemap:
+  url: 'https://YourDomain' #this is redundant
+jekyll-seo-tag:
+  title: Your Site Title
+  description: Some description here.
+  image: 
+jekyll-mentions:
+  base_url: 'https://twitter.com'
+favicon: 
+
+# Removed caching and cache_dir. Jekyll 4+ handles this automatically.
+# caching: true
+# cache_dir: _cache
+
+#google_analytics: 
+header:
+  title: Your Site Title
+  tagline: Some tagline here.
+  image: 

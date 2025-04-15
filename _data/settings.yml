@@ -1,0 +1,32 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'millennial-3'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
+
+menu:
+- {name: 'About',              url: 'about'}
+- {name: 'Contact',            url: 'contact'}
+- {name: 'Changelog',            url: 'changelog'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'brands fa-twitter', link:    'https://twitter.com/'}
+- {icon: 'brands fa-flickr', link:   'https://www.flickr.com/'}
+#- {icon: 'clock-rotate-left', link:  '/changelog'}
+#- {icon: 'tumblr', link:   'https://svnzakivp.tumblr.com/'}
+#- {icon: 'square-rss', link: 'feed.xml'}
+#- {icon: 'square-rss', link: 'rss-feed.xml'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'

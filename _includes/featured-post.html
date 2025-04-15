@@ -1,0 +1,9 @@
+<article>
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-post" style="
+      background-image: url({{ 'https://wsrv.nl/?h=600&url=' | append: post.images[post.card-image] }});
+      background-position: right 0px bottom {{ post.card-offset | default: 0 }}%;">
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+</article>
