@@ -15,25 +15,25 @@ plugins:
 
 include:
   - node_modules  # You probably need this for your Parcel/Webpack setup
-title: Your Site Title
+title: Driftlight
 author:
-  name: Your Name
-  email: Your Email
-  url: 'https://YourDomain'
-description: "Some description here"
-repository: Your Git Repository
-github: 'Your GitHub URL'
+  name: Congyue Wang
+  email: to.me@wcy.one
+  url: 'https://gallery.wcy.one'
+description: "A photo gallery"
+repository: wzwtt/Gallery
+github: 'https://github.com/wzwtt/Gallery'
 feed:
   path: rss-feed.xml
 sitemap:
-  url: 'https://YourDomain' #this is redundant
+  url: 'https://gallery.wcy.one' #this is redundant
 jekyll-seo-tag:
-  title: Your Site Title
-  description: Some description here.
-  image: 
+  title: Driftlight
+  description: Wandering through cities, pixels, and memories—chasing light with no map in hand.
+  image: /assets/img/favicon.png
 jekyll-mentions:
   base_url: 'https://x.com'
-favicon: 
+favicon: /assets/img/favicon.ico
 
 # Removed caching and cache_dir. Jekyll 4+ handles this automatically.
 # caching: true
@@ -41,6 +41,6 @@ favicon:
 
 #google_analytics: 
 header:
-  title: Your Site Title
-  tagline: Some tagline here.
-  image: 
+  title: Driftlight
+  tagline: Wandering through cities, pixels, and memories—chasing light with no map in hand.
+  image: /assets/img/favicon.png
