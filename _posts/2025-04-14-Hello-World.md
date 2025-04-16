@@ -2,7 +2,7 @@
 layout: post
 date: 14 Apr 2025
 title: Hello World
-author: Your Name
+place: Somewhere
 card-image: 5  #Determines the image number displayed on the home page, starting from 0.
 banner-image: 5   ##Determines the image number displayed on the banner, starting from 0.
 banner-offset: 60

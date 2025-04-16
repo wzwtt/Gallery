@@ -9,8 +9,8 @@
     {% else %}{{ d }}th{% endcase %},
   {{ page.date | date: "%Y" }}
   by
-  {% if page.author %}
-    {{ page.author }}
+  {% if page.place %}
+    {{ page.place }}
   {% else %}
     {{ site.author }}
   {% endif %}
