@@ -1,0 +1,9 @@
+_site
+Gemfile.lock
+.sass-cache
+.jekyll-metadata
+.DS_Store
+.jekyll-cache
+*.gem
+run.bat
+node_modules/.bin/
