@@ -23,7 +23,7 @@ Just create a new markdown file in `_posts` folder and name it like the [existin
 
 You can store your images in your object storage server, but don't store them directly in your website project because we don't design it that way and it's a bad practice.
 
-Note that if your images are stored on [Imgur](https://imgur.com), wsrv.nl cannot directly fetch the images due to [access restrictions](https://github.com/weserv/images/issues/319#issuecomment-962594280). The following is an example, but it may not be available, and you need to identify the possible privacy risks. You can use this proxy service, or change to another one.
+Note that if your images are stored on [Imgur](https://imgur.com), wsrv.nl cannot directly fetch the images due to [access restrictions](https://github.com/weserv/images/issues/319#issuecomment-962594280), so you should use a proxy. The following is an example, but it may not be available, and you need to identify the possible privacy risks. You can use this proxy service, or change to another one.
 
 ```
 https://img.noobzone.ru/getimg.php?url=https://i.imgur.com/zIcnrJH.png
@@ -32,3 +32,5 @@ https://img.noobzone.ru/getimg.php?url=https://i.imgur.com/zIcnrJH.png
 ## License
 
 Just like the original project, the code for this template is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+The copyright of all sample images belongs to the original rights holders.
