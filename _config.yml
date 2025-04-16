@@ -32,7 +32,7 @@ jekyll-seo-tag:
   description: Some description here.
   image: 
 jekyll-mentions:
-  base_url: 'https://twitter.com'
+  base_url: 'https://x.com'
 favicon: 
 
 # Removed caching and cache_dir. Jekyll 4+ handles this automatically.

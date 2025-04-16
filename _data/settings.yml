@@ -13,7 +13,8 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'brands fa-twitter', link:    'https://twitter.com/'}
+- {icon: 'brands fa-github', link:    'https://github.com/'}
+- {icon: 'brands fa-x-twitter', link:    'https://x.com/'}
 - {icon: 'brands fa-flickr', link:   'https://www.flickr.com/'}
 #- {icon: 'clock-rotate-left', link:  '/changelog'}
 #- {icon: 'tumblr', link:   'https://svnzakivp.tumblr.com/'}
