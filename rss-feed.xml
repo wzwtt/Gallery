@@ -18,6 +18,18 @@
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
+				{% if post.gallery %}
+					<gallery>
+						{% for item in post.gallery %}
+							<image>
+								<url>{{ item.image | xml_escape }}</url>
+								{% if item.description %}
+									<description>{{ item.description | xml_escape }}</description>
+								{% endif %}
+							</image>
+						{% endfor %}
+					</gallery>
+				{% endif %}
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

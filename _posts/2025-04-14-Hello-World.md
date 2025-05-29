@@ -3,16 +3,21 @@ layout: post
 date: 14 Apr 2025
 title: Hello World
 place: Somewhere
-excerpt: Some description
-card-image: 5  #Determines the image number displayed on the home page, starting from 0.
-banner-image: 5   ##Determines the image number displayed on the banner, starting from 0.
+excerpt: This is a demo post showing the image description features
+card-image: 0
+banner-image: 0
 banner-offset: 60
-images:
-  - https://img.noobzone.ru/getimg.php?url=https://i.imgur.com/zIcnrJH.png
-  - https://raw.githubusercontent.com/wzwtt/sample-images/main/IMG_0124.JPEG
-  - https://wsrv.nl/lichtenstein.jpg
-  - https://wsrv.nl/puppy.jpg
-  - https://wsrv.nl/transparency_demo.png
-  - https://raw.githubusercontent.com/wzwtt/sample-images/main/IMG_3515.HEIC
-  
+gallery:
+  - image: https://img.noobzone.ru/getimg.php?url=https://i.imgur.com/zIcnrJH.png
+    description: "This is the <strong>first image</strong> with bold text"
+  - image: https://raw.githubusercontent.com/wzwtt/sample-images/main/IMG_0124.JPEG
+    description: "This is the <em>second image</em> with italic text"
+  - image: https://wsrv.nl/lichtenstein.jpg
+    # No description, showing optional feature
+  - image: https://wsrv.nl/puppy.jpg
+    description: "This is the fourth image with a <a href='https://example.com'>link</a>"
+  - image: https://wsrv.nl/transparency_demo.png
+    description: "This is the fifth image with <span style='color: red;'>colored text</span>"
+  - image: https://raw.githubusercontent.com/wzwtt/sample-images/main/IMG_3515.HEIC
+    description: "This is the<br>sixth image<br>with multiple lines"
 ---
