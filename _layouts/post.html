@@ -107,7 +107,7 @@ layout: default
 <div class="banner">
     <div class="banner-text">
         <h1><strong>{{ page.title }}</strong></h1>
-        <p><span class="date"><time datetime="{{ page.date | date_to_xmlschema }}"><strong>{{ page.date | date_to_string }}</strong></time><strong>{% if page.place %} | {{ page.place }} {% endif %}</strong></span></p>
+        <p><span class="date"><time datetime="{{ page.date | date_to_xmlschema }}"><strong>{{ page.date | date_to_string }}</strong></time><strong>{% if page.place %} | {{ page.place }} {% endif %}{% if page.camera %} | {{ page.camera }} {% endif %}</strong></span></p>
     </div>
 </div>
 

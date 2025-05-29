@@ -9,6 +9,5 @@ banner-image: 0
 banner-offset: 60
 gallery:
   - image: https://img.noobzone.ru/getimg.php?url=https://i.imgur.com/DC89VaU.png
-    description: ""
   
 ---
