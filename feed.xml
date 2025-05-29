@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }}</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.github.url }}</link>
+    <atom:link href="{{ site.github.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.posts %}
+      <item>
+        <title>{{ post.title }}</title>
+        <description>
+          {% if post.camera %}Camera: {{ post.camera }} | {% endif %}
+          {% if post.place %}Location: {{ post.place }} | {% endif %}
+          {{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}
+        </description>
+        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+        <link>{{ site.github.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.github.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss> 

@@ -3,6 +3,7 @@ layout: post
 date: 14 Apr 2025
 title: Hello World
 place: Somewhere
+camera: Your camera
 excerpt: This is a demo post showing the image description features
 card-image: 5
 banner-image: 5
