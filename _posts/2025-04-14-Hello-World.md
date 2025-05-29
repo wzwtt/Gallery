@@ -4,8 +4,8 @@ date: 14 Apr 2025
 title: Hello World
 place: Somewhere
 excerpt: This is a demo post showing the image description features
-card-image: 0
-banner-image: 0
+card-image: 5
+banner-image: 5
 banner-offset: 60
 gallery:
   - image: https://img.noobzone.ru/getimg.php?url=https://i.imgur.com/zIcnrJH.png
@@ -19,5 +19,5 @@ gallery:
   - image: https://wsrv.nl/transparency_demo.png
     description: "This is the fifth image with <span style='color: red;'>colored text</span>"
   - image: https://raw.githubusercontent.com/wzwtt/sample-images/main/IMG_3515.HEIC
-    description: "This is the<br>sixth image<br>with multiple lines"
+    description: "This is the sixth image"
 ---
