@@ -8,7 +8,6 @@ google-ID: ''
 
 menu:
 - {name: 'About',              url: 'about'}
-- {name: 'Changelog',            url: 'changelog'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -17,6 +16,7 @@ social:
 #- {icon: 'clock-rotate-left', link:  '/changelog'}
 #- {icon: 'tumblr', link:   'https://svnzakivp.tumblr.com/'}
 #- {icon: 'square-rss', link: 'feed.xml'}
+- {icon: 'fa-solid fa-envelope', link: 'mailto:to.me@wcy.one'}
 - {icon: 'square-rss', link: 'rss-feed.xml'}
 
 # Customize site text
