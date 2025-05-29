@@ -30,10 +30,10 @@ sitemap:
 jekyll-seo-tag:
   title: Driftlight
   description: Wandering through cities, pixels, and memories—chasing light with no map in hand.
-  image: /assets/img/favicon.png
+  image: /assets/svg/favicon.svg
 jekyll-mentions:
   base_url: 'https://x.com'
-favicon: /assets/img/favicon.ico
+favicon: /assets/svg/favicon.svg
 
 # Removed caching and cache_dir. Jekyll 4+ handles this automatically.
 # caching: true
@@ -43,4 +43,4 @@ favicon: /assets/img/favicon.ico
 header:
   title: Driftlight
   tagline: Wandering through cities, pixels, and memories—chasing light with no map in hand.
-  image: /assets/img/favicon.png
+  image: /assets/svg/favicon.svg

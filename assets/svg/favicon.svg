@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define gradient -->
+    <defs>
+        <radialGradient id="ringGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#f8f8f8"/>
+            <stop offset="100%" style="stop-color:#e8e8e8"/>
+        </radialGradient>
+    </defs>
+
+    <!-- Outer circle -->
+    <circle cx="256" cy="256" r="240" stroke="#333" stroke-width="16" fill="url(#ringGradient)"/>
+    
+    <!-- Lens -->
+    <circle cx="256" cy="256" r="160" stroke="#333" stroke-width="12" fill="#f5f5f5"/>
+    
+    <!-- Light beams -->
+    <path d="M256 96 L256 256" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+    <path d="M256 256 L320 320" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+    <path d="M256 256 L192 320" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Center point -->
+    <circle cx="256" cy="256" r="12" fill="#333"/>
+</svg> 
