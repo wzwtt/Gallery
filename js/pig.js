@@ -769,6 +769,7 @@
         this.image1080 = singleImageData.image1080; // 1080 image
         this.imageFull = singleImageData.imageFull; // Filename of the full image
         this.index = index; // The index in the list of images
+        this.description = singleImageData.description; // Image description
 
         // The Pig instance
         this.pig = pig;
@@ -852,6 +853,9 @@
                     var anchor = document.createElement('a');
                     anchor.setAttribute('href', this.imageFull);
                     anchor.setAttribute('class', this.pig.settings.anchorClass);
+                    if (this.description) {
+                        anchor.setAttribute('title', this.description);
+                    }
                     anchor.appendChild(this.fullImage);
                     this.getElement().appendChild(anchor);
 

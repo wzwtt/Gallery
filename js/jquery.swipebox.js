@@ -699,16 +699,14 @@
                 let title = elements[index] !== undefined ? elements[index].title : null; // Get title safely
 
                 const titleContainer = $('#swipebox-title');
+                const topBar = $('#swipebox-top-bar');
                 titleContainer.empty(); // Clear previous title
 
-                if (title) {
-                    $('#swipebox-top-bar').show();
+                if (title && title.trim() !== '') {
+                    topBar.show();
                     titleContainer.append(title);
                 } else {
-                    //Hide if no title _and_ single image.
-                    if (elements.length < 2) {
-                        $('#swipebox-top-bar').hide();
-                    }
+                    topBar.hide();
                 }
             },
 

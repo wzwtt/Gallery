@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign banner_pic = page.banner-image | default: page.card-image %}
-{% assign banner_url = page.images[banner_pic] %}
+{% assign banner_url = page.gallery[banner_pic].image %}
 {% assign banner_image_url = banner_url | prepend: 'https://wsrv.nl/?h=1080&url=' %}
 
 <style>
@@ -82,6 +82,18 @@ layout: default
     .pig-wrapper img:hover {
         transform: scale(1.05);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #swipebox-top-bar {
+        height: 30px !important;
+        padding: 0 !important;
+    }
+    
+    #swipebox-title {
+        height: 30px !important;
+        line-height: 30px !important;
+        font-size: 12px !important;
+        padding: 0 10px !important;
     }
 </style>
 
@@ -164,12 +176,13 @@ layout: default
 <!-- Pig Gallery initialization -->
 <script type="text/javascript">
     var imageData = [
-        {% for image in page.images %}
+        {% for item in page.gallery %}
             {
-                "thumbnail": "https://wsrv.nl/?h=600&url={{ image }}",
-                "image1080": "https://wsrv.nl/?h=1080&url={{ image }}",
-                "imageFull": "https://wsrv.nl/?url={{ image }}",
-                "aspectRatio": 0 // Placeholder, will be calculated dynamically
+                "thumbnail": "https://wsrv.nl/?h=600&url={{ item.image }}",
+                "image1080": "https://wsrv.nl/?h=1080&url={{ item.image }}",
+                "imageFull": "https://wsrv.nl/?url={{ item.image }}",
+                "aspectRatio": 0, // Placeholder, will be calculated dynamically
+                "description": "{{ item.description | default: '' }}"
             },
         {% endfor %}
     ];
